@@ -1,0 +1,2 @@
+# gpu_parallelization
+Co-occurrence matrices act as the input to many unsupervised learning algorithms, including those that learn word embedding, and modern spectral topic models. However, the computation of these inputs often takes longer time than the inference. While much thought has been given to implementing fast learning algorithms. The co-occurrence matrix computation tasks are well suited to GPU parallelization. GPUs or other specialized hardware, have never been used to explicitly compute word-to-word co-occurrence matrix.
